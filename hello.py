@@ -15,27 +15,6 @@ def pick8Cells():
         cell.append(lines[random.randrange(8)] + lines[random.randrange(8)])
     return cell
 
-def isAttacked(Cell,AttkCell)
-    
 
 print(pick8Cells())
 
-
-
-
-
-"""
-inp = input("enter bitstring")
-convString(inp)
-fruit = 'apple'
-inp = ''
-
-print("fruit")
-print(fruit[4])
-print(len(fruit))
-print(fruit.upper() + ' ' + str(1))
-
-inp = input("do you like it?")
-print(inp)
-print('{0} , it is'.format(inp))
-"""
