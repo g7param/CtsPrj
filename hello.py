@@ -15,6 +15,9 @@ def pick8Cells():
         cell.append(lines[random.randrange(8)] + lines[random.randrange(8)])
     return cell
 
+def isAttacked(Cell,AttkCell)
+    
+
 print(pick8Cells())
 
 

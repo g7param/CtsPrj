@@ -2,8 +2,8 @@ import random,sys
 n=8
 pop=10
 maxFitness=28
-hardstop=5
-pblMut=.03
+hardstop=10
+pblMut=.05
 
 def randomPositions(): #generate random positions 
     return [ random.randint(0, n-1) for _ in range(n) ]
